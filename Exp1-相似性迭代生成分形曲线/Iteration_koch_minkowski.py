@@ -2,17 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def koch_generator(u, level):
-    """
-    递归/迭代生成科赫曲线的点序列。
-
-    参数:
-        u: 初始线段的端点数组（复数表示）
-        level: 迭代层数
-
-    返回:
-        numpy.ndarray: 生成的所有点（复数数组）
-    """
-    # TODO: 实现科赫曲线生成算法
     pass
 
 def minkowski_generator(u, level):
