@@ -1,5 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('TkAgg')  # 或 'Agg', 'Qt5Agg', 根据你的环境选择
 
 def koch_generator(u, level):
     """
